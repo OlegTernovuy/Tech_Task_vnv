@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/tech-task-vnv/static/css/main.ca8bf613.css",
+    "main.js": "/tech-task-vnv/static/js/main.45f46fff.js",
+    "static/media/Software-Development.jpeg": "/tech-task-vnv/static/media/Software-Development.c2a8118a82fe87bfa3b5.jpeg",
+    "static/media/review_photo.jpeg": "/tech-task-vnv/static/media/review_photo.1497420e89662f46a8d6.jpeg",
+    "static/media/portfolio.webp": "/tech-task-vnv/static/media/portfolio.20e8dbbb3c397afa95ca.webp",
+    "static/media/DEVELOPMENT-OF-A-ERP.jpeg": "/tech-task-vnv/static/media/DEVELOPMENT-OF-A-ERP.98a0ca2e32c68e950cad.jpeg",
+    "static/media/logo.png": "/tech-task-vnv/static/media/logo.6328696c9eac305aeaef.png",
+    "static/media/BOT-DEVELOPMENT.jpeg": "/tech-task-vnv/static/media/BOT-DEVELOPMENT.a4c54d677774938d28eb.jpeg",
+    "static/media/online-store-dev.png": "/tech-task-vnv/static/media/online-store-dev.a307b39db0d519128c6e.png",
+    "static/media/services4.svg": "/tech-task-vnv/static/media/services4.29120eb6bb0cc8d36f83c99dc9955ccb.svg",
+    "static/media/services5.svg": "/tech-task-vnv/static/media/services5.08e267ffdec09253ba0d972084819e03.svg",
+    "static/media/services3.svg": "/tech-task-vnv/static/media/services3.22d51e7040c3bf1e7db960d11d4c45b0.svg",
+    "static/media/services1.svg": "/tech-task-vnv/static/media/services1.d5c9bfa97651e182750753b244d78074.svg",
+    "static/media/2.webp": "/tech-task-vnv/static/media/2.f0446c260f4195f4e5f4.webp",
+    "static/media/6.webp": "/tech-task-vnv/static/media/6.f0446c260f4195f4e5f4.webp",
+    "static/media/3.webp": "/tech-task-vnv/static/media/3.8d684b871183393e5a33.webp",
+    "static/media/4.webp": "/tech-task-vnv/static/media/4.ed836c4e7c6912e32f42.webp",
+    "static/media/services2.svg": "/tech-task-vnv/static/media/services2.5aadbb47f54d43f4ddd26c2517f4c0cf.svg",
+    "static/media/slick.svg": "/tech-task-vnv/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/tech-task-vnv/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/tech-task-vnv/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/tech-task-vnv/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/1.webp": "/tech-task-vnv/static/media/1.b089632065c7e3610310.webp",
+    "static/media/5.webp": "/tech-task-vnv/static/media/5.068d9327f92318d108e4.webp",
+    "index.html": "/tech-task-vnv/index.html",
+    "main.ca8bf613.css.map": "/tech-task-vnv/static/css/main.ca8bf613.css.map",
+    "main.45f46fff.js.map": "/tech-task-vnv/static/js/main.45f46fff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca8bf613.css",
+    "static/js/main.45f46fff.js"
+  ]
+}
