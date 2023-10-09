@@ -1,0 +1,52 @@
+@import "../../../index";
+
+.reviews {
+  @extend %flex-column;
+  margin-bottom: 4rem;
+}
+
+.review-title {
+  @extend %h1;
+}
+
+.reviews-items {
+  @extend %grid;
+  padding: 3rem;
+}
+
+.reviewImage {
+  border-radius: 50%;
+}
+
+.review-item-text {
+  @extend %grid-text-about;
+}
+
+@media (min-width: 600px) {
+  .reviews-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .reviews-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.review-item {
+  text-align: center;
+}
+
+.review-star {
+  color: aliceblue;
+}
+
+@media (max-width: 900px) {
+  .review-title {
+    margin: 2rem auto;
+    width: max-content;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,38 @@
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin: -8.5rem auto 0;
+  max-width: 1600px;
+}
+
+.typed-text {
+  padding-left: 1rem;
+  color: gray;
+}
+
+h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  line-height: 5.6rem;
+  font-size: 3.2rem;
+  font-weight: 100;
+  width: 40rem;
+
+  b {
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+  h1 {
+    line-height: 3rem;
+    font-size: 2rem;
+    width: 16rem;
+  }
+}

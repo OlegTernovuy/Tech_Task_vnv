@@ -1,0 +1,53 @@
+@import "../../../index";
+
+.advantages {
+  @extend %flex-column;
+
+  h1 {
+    @extend %h1;
+  }
+}
+
+.image {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.why-items {
+  @extend %grid;
+}
+
+.why-item-text {
+  @extend %grid-text-about;
+}
+
+@media (min-width: 600px) {
+  .why-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .why-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.why-item-wrapper {
+  background-color: #2a2a2a;
+}
+
+.why-item-wrapper:hover .why-item {
+  transform: translate3d(-10px, -10px, 0);
+  opacity: 0.6;
+}
+
+.why-item {
+  background-color: black;
+  transition: all 0.7s linear;
+  text-align: center;
+}
+
+.advantages-button {
+  margin: 2rem auto;
+}

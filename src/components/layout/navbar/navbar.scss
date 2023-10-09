@@ -1,0 +1,83 @@
+@import "../../../index";
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 2rem;
+  height: 6rem;
+}
+
+.nav-ul {
+  color: #ffffff;
+  display: none;
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .nav-ul {
+    display: flex;
+  }
+  .phone-menu {
+    display: none;
+  }
+}
+
+.nav-li {
+  @extend %nav-wrapper;
+  transition: ease-in-out 0.5s;
+
+  &:hover {
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+  }
+}
+
+.phone-menu {
+  color: #ffffff;
+}
+
+.show-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 400ms;
+  z-index: 5;
+
+  img {
+    padding: 1rem 0 0 1rem;
+  }
+}
+
+.hide-menu {
+  position: fixed;
+  left: -100%;
+}
+
+.close-button {
+  display: flex;
+  align-items: center;
+}
+
+.AiOutlineClose {
+  margin-left: 9rem;
+  color: black;
+}
+
+.phone-nav-li {
+  @extend %nav-wrapper;
+  color: black;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+
+.phone-nav-ul {
+  margin: 4rem 0;
+  padding: 0;
+}

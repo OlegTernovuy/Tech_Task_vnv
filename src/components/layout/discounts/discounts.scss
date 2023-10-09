@@ -1,0 +1,53 @@
+@import "../../../index";
+
+.discounts {
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto 4rem;
+}
+
+.discounts-title {
+  @extend %h1;
+}
+
+.discount-cart {
+  margin: 0 auto;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  border-radius: 8px;
+  overflow: hidden;
+
+  height: 400px;
+  width: 300px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.discount-cart-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.discount-cart-h1 {
+  margin: 0 auto;
+  width: max-content;
+  font-size: 1.1rem;
+}
+
+.discount-cart-h2 {
+  @extend %h2;
+  font-size: 1.5rem;
+}
+
+.slick-dots li {
+  color: aqua;
+  width: 2px;
+  height: 2px;
+}
+
+@media (max-width: 900px) {
+  .discounts-title {
+    font-size: 1.2rem;
+  }
+}

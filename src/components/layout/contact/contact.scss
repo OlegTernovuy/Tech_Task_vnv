@@ -1,0 +1,75 @@
+@import "../../../index";
+
+.contact-wrapper {
+  color: #ffffff;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.contact-title {
+  @extend %h1;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.our-contact-ul:hover li {
+  opacity: 0.2;
+}
+
+.our-contact-ul li:hover {
+  opacity: 1;
+}
+
+.our-contact-li {
+  @extend %nav-wrapper;
+  padding: 1rem 0;
+  transition: all 0.5s linear;
+  display: flex;
+  align-items: center;
+}
+
+.our-contact-li-icon {
+  margin-right: 1rem;
+}
+
+.contact-social-ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.contact-social-li {
+  @extend %nav-wrapper;
+  transition: ease-in-out 0.5s;
+  &:hover {
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-social-ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .contact-social-li {
+    padding: 0 0 1rem;
+  }
+  .contact-social {
+    margin-top: 2rem;
+  }
+}

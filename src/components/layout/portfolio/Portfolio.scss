@@ -1,0 +1,97 @@
+@import "../../../index";
+
+.portfolio-wrapper {
+  position: relative;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.portfolio-desc-white {
+  width: 100%;
+  height: 30rem;
+  background-color: white;
+}
+
+.portfolio-title {
+  color: black;
+  margin: 0 auto;
+  width: max-content;
+  padding: 4rem 0;
+}
+
+.portfolio-desc-block {
+  width: 30rem;
+  height: 20rem;
+  background-color: black;
+  position: absolute;
+  right: 4rem;
+  border-radius: 1.6rem;
+  color: white;
+  padding: 1rem;
+
+  h2 {
+    text-align: center;
+    @extend %h2;
+    margin: 2rem 0;
+  }
+}
+
+.portfolio-desc-text {
+  @extend %description-text;
+}
+
+.portfolio-desc-gray {
+  width: 100%;
+  height: 30rem;
+  background-color: #211f28;
+}
+
+.portfolio-button {
+  position: absolute;
+  bottom: 20%;
+  right: 12rem;
+  margin: 1rem 0;
+}
+
+.portfolio-photo-wrapper {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+}
+
+.portfolio-photo {
+  width: 50rem;
+  height: 30rem;
+}
+
+@media (max-width: 1400px) {
+  .portfolio-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio-photo-wrapper {
+    bottom: 7rem;
+  }
+  .portfolio-desc-block {
+    width: auto;
+    height: auto;
+    right: 0;
+    margin: 0 1rem;
+  }
+  .portfolio-button {
+    bottom: 0;
+    right: 2rem;
+  }
+  .portfolio-photo {
+    max-height: 25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-photo {
+    width: 100%;
+    height: auto;
+  }
+}

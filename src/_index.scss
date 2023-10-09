@@ -1,0 +1,62 @@
+$primary-color: #000000;
+
+body {
+  background-color: $primary-color;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+%description-text {
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6em;
+  font-weight: 200;
+  color: gray;
+}
+
+%h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6em;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+%flex-column {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+%h1 {
+  margin: 3rem auto;
+  width: max-content;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+}
+
+%grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+%grid-text-about {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0;
+}
+
+%nav-wrapper {
+  list-style: none;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  padding-left: 2rem;
+  cursor: pointer;
+}
